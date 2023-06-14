@@ -1,0 +1,141 @@
+.pic{
+    background: url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 600px;
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: background 1s ease;
+}
+.pic:hover{
+    background: url(https://restaurantclicks.com/wp-content/uploads/2021/10/fancy-indian-restaurant-fine-dining.jpg);
+    height: 600px;
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    animation: picture 5s infinite;
+}
+@keyframes picture {
+    0%{
+        background: url("https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 700px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        background: url("https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 700px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background: url("https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 600px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background: url("https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 700px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url("https://images.pexels.com/photos/699544/pexels-photo-699544.jpeg?auto=compress&cs=tinysrgb&w=600");
+        height: 600px;
+        width: 1250px;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+}
+.txt{
+    
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 7px 3px 3px rgb(241, 210, 116);
+}
+.t{
+    font-size:x-large;
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+.header{
+    display: flex;
+    height: 35px;
+    float: right;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.nav{
+   padding:20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    margin-top: 25px;
+    height: 30px;
+}
+.a{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    margin-left: 900px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    background-color:rgb(237, 242, 245) ;
+   
+}
+.b{
+    margin-top: 200px;
+}
+.c{
+    margin-top: 30px;
+    height: 330px;
+    width: 600px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(237, 242, 245);
+    font-size: xx-large;
+    
+}
+.thanks{
+    margin:auto;
+}
+.txt1{
+    margin-top: 23%;
+    margin-left: 6%;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 7px 3px 3px rgb(241, 210, 116);
+}
+.txt1:hover{
+    scale: 1.5;
+}
+.hidden{
+    opacity: 0;
+}
+.thanks:hover .hidden{
+    height: 25px;
+    width: 250px;
+    background-color: aliceblue;
+    opacity: 1;
+    z-index: 9;
+    color: black;
+    margin-left: 50%;
+    margin-top: 5%;
+    text-align: center;
+}
